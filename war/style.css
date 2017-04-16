@@ -1,0 +1,94 @@
+/* 
+    Document   : style
+    Created on : Jan 29, 2013, 10:07:50 PM
+    Author     : Laura Martinez (lauracam@andrew.cmu.edu)
+    Description:
+        Stylesheet for Project1Task1
+*/
+
+/* Attributes for the body */
+body { 
+    background-color: #343838;
+    font-family: 'Rambla', sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+
+/* Attributes for the box container */
+#main{
+    background-color: #008C9E;
+    border: solid 5px #005F6B;
+    border-radius: 15px;
+    padding: 50px;
+    margin: auto;
+    width: 300px;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+    height:260px;
+}
+
+/* Attributes for all the inputs in a form */
+form input,
+form textarea{
+    background-color: #00DFFC;
+    border: solid #00B4CC 1px;
+    border-radius: 5px;
+    color: #005F6B;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+/* Attributes for input text boxes in a form */
+form input[type="text"]{
+    margin: 12px 0 20px 0;
+    width: 110px;
+}
+
+/* Attributes for input text boxes in a form */
+form textarea{
+	height: 80px;
+    margin: 12px 0 0 0;
+    width: 250px;
+}
+
+/* Attributes for the submit buttons in a form */
+form input[type="submit"]{
+   color: #00DFFC;
+   background-color: #005F6B;
+   margin: 15px 0 0 0;
+}
+
+/* Attributes for the paragraph tags */
+p{
+    margin: 0;
+    word-wrap: break-word;
+}
+
+p.pow{
+	font-size: 12px;
+}
+
+div.copyright{
+	position:absolute;
+	bottom: 20px;
+	right: 20px;
+}
+
+a,
+a:active
+a:visited{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;	
+}
+
+
+
